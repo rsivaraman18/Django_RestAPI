@@ -1,7 +1,7 @@
 ### Application urls.py
 
 from django.urls import path
-from .views import *
+from .views import * 
 
 urlpatterns = [
     path('products/',          Ourproducts.as_view() ),
