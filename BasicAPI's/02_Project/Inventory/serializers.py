@@ -1,7 +1,7 @@
 ### APP serializer.py
 from rest_framework import serializers
 from .models import *
-
+ 
 class Products_Serializer1(serializers.ModelSerializer):
 
     class Meta:
