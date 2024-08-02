@@ -8,7 +8,7 @@ class ProductCategory(models.Model):
     def __str__(self):
         return self.category_name
 
-
+ 
 
 ### It deponds on Category(Child Model)
 class Myproducts(models.Model):
