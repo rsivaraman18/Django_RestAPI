@@ -1,6 +1,6 @@
 ## Application models.py
 from django.db import models
- 
+  
 ### Parent Model so top
 class ProductCategory(models.Model):
     category_name = models.CharField(max_length=200,null=True)
