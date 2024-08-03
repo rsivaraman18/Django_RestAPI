@@ -38,7 +38,7 @@ class Ourproducts_serial(APIView):
         serialized_products =  Product_serializer(viewproducts,many=True).data
         return Response(serialized_products)
     
-
+ 
 class Ourproducts_serialBYID(APIView):
     def get(self,request,id):
         viewproducts = Myproducts.objects.get(id=id)
