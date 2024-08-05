@@ -2,7 +2,7 @@
 from django.contrib import admin
 from django.urls import path
 from .views import *
- 
+  
 urlpatterns = [
     ### Category with Serializer
     path('category/',           OurCategory.as_view()),
