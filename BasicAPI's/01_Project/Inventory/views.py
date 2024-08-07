@@ -1,5 +1,5 @@
 ### Application views.py
- 
+  
 from rest_framework .views import APIView
 from rest_framework .response import Response
 from .models import *
@@ -39,7 +39,8 @@ class Ourproductsbyid(APIView):
                     'product_id': detail.id
         }
         return Response(product)
-    
+
+ 
     def put(self,request,id):
         detail    = Myproducts.objects.get(id=id)
         uservalue = request.data
