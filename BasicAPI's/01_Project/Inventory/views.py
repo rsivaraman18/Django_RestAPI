@@ -40,7 +40,8 @@ class Ourproductsbyid(APIView):
         }
         return Response(product)
 
- 
+
+  
     def put(self,request,id):
         detail    = Myproducts.objects.get(id=id)
         uservalue = request.data
