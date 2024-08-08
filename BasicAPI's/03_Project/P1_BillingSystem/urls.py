@@ -6,3 +6,4 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('inventory/', include('Inventory.urls')),
 ]
+ 
